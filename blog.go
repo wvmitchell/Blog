@@ -4,11 +4,11 @@ import "github.com/codegangsta/martini"
 
 func main() {
 
-  m := martini.Classic()
+	m := martini.Classic()
 
-  m.Get("/", func() string {
-    return "Hello World!"
-  })
+	m.Get("/", func() string {
+		return "Hello World!"
+	})
 
-  m.Run()
+	m.Run()
 }
