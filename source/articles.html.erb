@@ -3,6 +3,9 @@
     <h2><span class='title-icon'></span><%= current_article.title %></h2>
     <div class='article-details'>
       <span><%= current_article.date.strftime("%A, %B %d, %Y") %></span>
+      <% unless current_article.tags.empty? %>
+        <span>Taggged: <%= current_article.tags.join(", ") %></span>
+      <% end %>
     </div>
     <div class='article-body'>
       <div class='entry-colors'>
