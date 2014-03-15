@@ -11,18 +11,10 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.logo {
-  background-image: url('../images/logo-white.png');
-  background-repeat: no-repeat;
-  margin: 30px auto;
-  width: 100px;
-  height: 100px;
-  transition: all 0.4s ease-out;
-  -webkit-transition: all 0.4s ease-out;
-}
-
-.logo:hover {
-  background-image: url('../images/logo-grey.png');
+.title-descriptor {
+  margin-left: 45px;
+  color: #c9c9c9;
+  margin-top: 36px;
 }
 
 #main {
@@ -61,6 +53,7 @@ h2 {
   height: 28px;
   display: inline-block;
   position: relative;
+  top: 5px;
   margin-left: -80px;
   margin-right: 20px;
 }

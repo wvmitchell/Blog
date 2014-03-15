@@ -33,6 +33,21 @@
     text-align: center;
     margin: 30px auto;
   }
+
+  .logo {
+    background-image: url('../images/logo-white.png');
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+  }
+
+  .logo:hover {
+    background-image: url('../images/logo-grey.png');
+  }
+
 /*}*/
 /*
 @media only screen and (max-width: 981px) {
