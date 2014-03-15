@@ -1,7 +1,7 @@
 ---
 title: 100 Days of Go
 date: 2014-03-14 16:12 UTC
-tags:
+tags: Go, Languages
 ---
 
 Sitting at Denver.rb a few nights ago, I listened as my friend and mentor Jeff
