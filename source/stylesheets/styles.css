@@ -11,8 +11,18 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.title-descriptor {
-  margin-left: 60px;
+.logo {
+  background-image: url('../images/logo-white.png');
+  background-repeat: no-repeat;
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+  transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+}
+
+.logo:hover {
+  background-image: url('../images/logo-grey.png');
 }
 
 #main {
