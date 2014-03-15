@@ -1,0 +1,16 @@
+<% wrap_layout :layout do %>
+  <div class="article">
+    <h2><span class='title-icon'></span><%= current_article.title %></h2>
+    <div class='article-details'>
+      <span><%= current_article.date.strftime("%A, %B %d, %Y") %></span>
+    </div>
+    <div class='article-body'>
+      <div class='entry-colors'>
+        <div class='col1'></div>
+        <div class='col2'></div>
+        <div class='col3'></div>
+      </div>
+      <%= current_article.body %>
+    </div>
+  </div>
+<% end %>

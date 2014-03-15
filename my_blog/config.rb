@@ -53,7 +53,7 @@ page "/feed.xml", layout: false
 # page "/path/to/file.html", layout: :otherlayout
 #
 # A path which all have the same layout
-with_layout :layout do
+with_layout :articles do
   page "/articles/*"
 end
 
@@ -83,6 +83,14 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
+activate :syntax,
+         :linenos => 'inline',
+         :anchorlinenos => true,
+         :linenostart => 2
 
 # Build-specific configuration
 configure :build do

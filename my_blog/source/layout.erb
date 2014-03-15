@@ -11,31 +11,31 @@
 
     <%= render_partial "layouts/navbar" %>
 
-    <div id="main" role="main">
+    <div id="main" rule="main">
       <%= yield %>
     </div>
 
     <aside>
       <h2 class="title">Recent Articles</h2>
-      <ol>
+      <ul>
         <% blog.articles[0...10].each do |article| %>
-          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+          <li><%= link_to article.title, article %></span></li>
         <% end %>
-      </ol>
+      </ul>
 
       <h2 class="title">Tags</h2>
-      <ol>
+      <ul>
         <% blog.tags.each do |tag, articles| %>
           <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
         <% end %>
-      </ol>
+      </ul>
 
       <h2 class="title">By Year</h2>
-      <ol>
+      <ul>
         <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
           <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
         <% end %>
-      </ol>
+      </ul>
     </aside>
 
   </body>
