@@ -11,6 +11,10 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.title-descriptor {
+  margin-left: 60px;
+}
+
 #main {
   position: relative;
   margin-left: 215px;
@@ -75,6 +79,7 @@ h2 {
   line-height: 1;
   text-transform: uppercase;
   font-family: 'Source Sans Pro', sans-serif;
+  margin-right: 15px;
 }
 
 .entry-colors {

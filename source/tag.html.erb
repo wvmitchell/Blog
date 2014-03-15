@@ -2,7 +2,6 @@
 pageable: true
 per_page: 12
 ---
-<h1>Articles tagged '<%= tagname %>'</h1>
 
 <% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
@@ -12,25 +11,7 @@ per_page: 12
   <% end %>
 <% end %>
 
-<% page_articles.each_with_index do |article, i| %>
-  <div class='article'>
-    <h2><span class='title-icon'></span><%= link_to article.title, article %></h2>
-    <div class='article-details'>
-      <span><%= article.date.strftime("%A, %B %d, %Y") %></span>
-    </div>
-    <div class='article-body'>
-      <div class='entry-colors'>
-        <div class='col1'></div>
-        <div class='col2'></div>
-        <div class='col3'></div>
-      </div>
-    <!-- use article.summary(250) if you have Nokogiri available to show just
-         the first 250 characters -->
-    <%= article.summary %>
-    <%= link_to "Read More", article, class: 'more-article' %>
-    </div>
-  </div>
-<% end %>
+<%= partial(:page_articles, locals: {page_articles: page_articles}) %>
 
 <% if paginate %>
   <% if next_page %>
