@@ -20,11 +20,25 @@ pageable: true
   <% end %>
 <% end %>
 
-<ul>
-  <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-  <% end %>
-</ul>
+<% page_articles.each_with_index do |article, i| %>
+  <div class='article'>
+    <h2><span class='title-icon'></span><%= link_to article.title, article %></h2>
+    <div class='article-details'>
+      <span><%= article.date.strftime("%A, %B %d, %Y") %></span>
+    </div>
+    <div class='article-body'>
+      <div class='entry-colors'>
+        <div class='col1'></div>
+        <div class='col2'></div>
+        <div class='col3'></div>
+      </div>
+    <!-- use article.summary(250) if you have Nokogiri available to show just
+         the first 250 characters -->
+    <%= article.summary %>
+    <%= link_to "Read More", article, class: 'more-article' %>
+    </div>
+  </div>
+<% end %>
 
 <% if paginate %>
   <% if next_page %>
