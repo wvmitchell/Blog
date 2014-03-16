@@ -1,7 +1,7 @@
 ---
 title: Flexing my VIM
 date: 2013-10-18 15:01 UTC
-tags:
+tags: Editors, VIM
 ---
 
 After talking to a developer that works here at Galvanize, I decided to take all
