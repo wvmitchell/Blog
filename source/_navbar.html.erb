@@ -20,15 +20,21 @@
 
   <div class='networks'>
     <div class='network'>
-      <%= image_tag "webicon-github.png" %>
+      <% link_to("https://github.com/wvmitchell", target: 'blank') do %>
+        <%= image_tag "webicon-github.png" %>
+      <% end %>
     </div>
 
     <div class='network'>
-      <%= image_tag "webicon-twitter.png" %>
+      <% link_to("https://twitter.com/wvmitchell", target: 'blank') do %>
+        <%= image_tag "webicon-twitter.png" %>
+      <% end %>
     </div>
 
     <div class='network'>
-      <%= image_tag "webicon-googleplus.png" %>
+      <% link_to("https://plus.google.com/102237139295731795804/posts", target: 'blank') do %>
+        <%= image_tag "webicon-googleplus.png" %>
+      <% end %>
     </div>
   </div>
 </div>
