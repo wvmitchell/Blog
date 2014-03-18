@@ -45,6 +45,23 @@
     -webkit-transition: all 0.4s ease-out;
   }
 
+  .networks {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .network {
+    float: left;
+    width: 33%;
+    height: auto;
+  }
+
+  .network img {
+    display: block;
+    margin: 0 auto;
+  }
+
 }
 
 @media only screen and (max-width: 981px) {
