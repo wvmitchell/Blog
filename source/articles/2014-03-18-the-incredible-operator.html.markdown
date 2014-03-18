@@ -49,7 +49,7 @@ All we need to do is use an uppercase W.
 
 In reading more about this topic, I discovered that the % operator is the
 starting point for this syntax, and the rest is built off it. This is apparently
-a Perl inspired way of quoting strings, borrowed and extended by the ruby
+a Perl inspired way of quoting strings, borrowed and extended by the Ruby
 language. Its uses are varied, and all intriguing.
 
   ```ruby
@@ -80,4 +80,4 @@ or {} for consistency and readability.
 While I'm sure you'll find, as I did, that your current methods for building
 strings are just fine, I think the new notation for arrays of symbols is
 particularly useful, as it saves a fair bit of typing. Whichever you choose to
-make use of, have fun!
+make use of, have fun, and happy hacking!
