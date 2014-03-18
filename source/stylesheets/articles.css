@@ -26,6 +26,10 @@
   }
 }
 
+.article {
+  margin-bottom: 50px;
+}
+
 .article h2 a {
   text-decoration: none;
   color: #2a2a26;
