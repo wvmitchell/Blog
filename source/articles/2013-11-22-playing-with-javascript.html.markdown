@@ -1,7 +1,7 @@
 ---
 title: Playing with JavaScript
 date: 2013-11-22 18:14 UTC
-tags:
+tags: Languages, Javascript
 ---
 
 Ah focus week, that most magical of times when we are allowed a full night's
