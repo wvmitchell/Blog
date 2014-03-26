@@ -1,7 +1,7 @@
 ---
 title: The Incredible % Operator
 date: 2014-03-18 17:32 UTC
-tags: Ruby
+tags: Ruby, Languages
 ---
 
 One of my favorite things about programming is how frequently I find myself
