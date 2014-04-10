@@ -1,0 +1,10 @@
+---
+title: 75 Days to Go
+date: 2014-04-10 16:51 UTC
+tags: Go, Languages
+---
+
+A quarter of the way to my goal of 100 days and still going strong! As with
+anything, some days have been more fruitful than others, but I'm happy to report
+I've thus far met the very modest goal of having at least one github commit in
+Go per day. Most days have seen many more.
