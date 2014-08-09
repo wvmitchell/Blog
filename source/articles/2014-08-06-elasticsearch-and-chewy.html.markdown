@@ -91,9 +91,9 @@ Make sure to bundle after adding to the Gemfile to ensure Chewy is
 loaded into your project. Now that we've got everything configured,
 we're ready to start defining our indices. Chewy will look inside
 app/chewy/ to find the index definitions to load into elasticsearch, so
-go ahead and create that. For our index, lets again imaging we have a
+go ahead and create that. For our index, lets again image we have a
 Book model in our project that we're managing with ActiveRecord.
-Defining they index is super simple.
+Defining the index is super simple.
 
   ```ruby
     # app/chewy/books_index.rb
