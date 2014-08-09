@@ -18,7 +18,7 @@ number of ways you may choose to tackle this problem, however the
 solution I'm focusing on today is Elasticsearch, paired with the Chewy
 gem.
 
-Elasticsearch is a wizbangpop which sits alongside your application
+Elasticsearch is an opensource RESTful service which sits alongside your application,
 holding a text representation of all your data. When data is updated or
 created from your application, Elasticsearch can update it's own dataset
 to match whats currently in your database. The benefit you get from this
@@ -57,12 +57,13 @@ straightforward. If you're on a Mac and have homebrew installed:
     $ gem install chewy
   ```
 
-If you're not using homebrew, two things; One, you really ought to be
-using homebrew. Two, you'll need to download and install Elasticsearch
-manually.
+If you're not using homebrew, you'll need to download and install 
+Elasticsearch manually. Checkout the
+<a href="http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/_installing_elasticsearch.html" target='_blank'>installation instructions</a> for more info.
 
 Once installed, you'll need to do a bit of configuration to get
-Elasticsearch running locally. Yada yada yada. Visit 'localhost:9200' to
+Elasticsearch running locally. Follow the prompts during the install to 
+get it working on your machine. Visit 'localhost:9200' to
 ensure that Elasticsearch is up and running.
 
 To start using Elasticsearch and Chewy in your Rails project, you'll
@@ -147,3 +148,13 @@ model.
   ```
 
 And that's it! Full text searching never felt so good!
+
+If you're interested in learning more, the Elasticsearch documentation
+is your best resource, you can find it <a
+href="http://www.elasticsearch.org/" target="_blank">here.</a> The Chewy
+gem has a very thorough <a href="https://github.com/toptal/chewy" target="_blank">Readme</a>
+, as well as a number of attached gists describing use cases.
+
+I wish you all the best getting Elasticsearch working for you in your
+project. The benefits are clear, but the path forward can seem a little
+daunting. Hopefully this post gets you there more quickly.
