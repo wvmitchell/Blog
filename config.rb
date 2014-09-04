@@ -29,6 +29,14 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
+###
+# Disqus
+###
+
+activate :disqus do |d|
+  d.shortname = ''
+end
+
 page "/feed.xml", layout: false
 
 ###
@@ -94,6 +102,11 @@ activate :syntax,
 
 # Build-specific configuration
 configure :build do
+
+  activate :disqus do |d|
+    d.shortname = 'wvmdevelopment'
+  end
+
   # For example, change the Compass output style for deployment
   # activate :minify_css
 

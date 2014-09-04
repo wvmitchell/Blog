@@ -6,6 +6,7 @@ gem "middleman", "~> 3.2.2"
 gem "middleman-blog", "~> 3.5.2"
 gem "nokogiri"
 gem "redcarpet"
+gem "middleman-disqus"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"

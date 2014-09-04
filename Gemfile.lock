@@ -53,6 +53,8 @@ GEM
       rack-test (~> 0.6.1)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1)
+    middleman-disqus (0.0.3)
+      middleman-core (>= 3.1.0)
     middleman-sprockets (3.3.1)
       middleman-core (>= 3.2)
       sprockets (~> 2.1)
@@ -99,5 +101,6 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 3.2.2)
   middleman-blog (~> 3.5.2)
+  middleman-disqus
   nokogiri
   redcarpet
