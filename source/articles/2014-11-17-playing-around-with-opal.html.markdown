@@ -161,7 +161,7 @@ href='http://jquery.com' target='_blank'>jQuery</a> and save it in your
 app directory as `/app/jquery.js`. Do this and reload the page.
 
 Hey! Now that's pretty sweet eh? A Javascript alert that we didn't write
-a JS to make.
+any JS to make.
 
 Now, alerts are all good and well, but JS and Ruby have far more functionality
 than that, so lets dig in a bit. Make the following chages to your
