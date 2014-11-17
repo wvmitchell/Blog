@@ -106,7 +106,7 @@ without requiring us to restart the server. Alternatively, you could use
 
 
 In your browser, navigate to localhost:9393. You should be seeing an error, 
-because we haven't created our index view. Lets do that now. Be sure to also 
+because we haven't created our index view. Lets do that now. Be sure to 
 create a directory for the views as well.
 
 
@@ -227,7 +227,7 @@ would if you were writing JS, and the class `Element` represents DOM
 elements. We use the Element class convenience method `[]`, to find
 elements, but we could also `Element.find()`
 
-We also make use of the jquery methods 'on' and 'animate', but get to
+We also make use of the jQuery methods 'on' and 'animate', but get to
 use a friendly Ruby block sytax. Also, you'll see we defined our own
 helper function to get some random sizes. We could just as easily start
 to bring in our own custom objects and classes here.
