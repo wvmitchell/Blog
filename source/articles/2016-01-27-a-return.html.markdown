@@ -1,0 +1,43 @@
+---
+title: A Return
+date: 2016-01-27 23:10 UTC
+tags: Life, Writing
+---
+
+Hey, look at this, I have a blog! My, and it has been such a very long time since
+I updated it. Well, perhaps I ought to give you all (is anyone actually reading this?) an
+update of where life has lead me since I last posted.
+
+Before I do however, I should mention, I intend to use this blog more often moving forward. I
+also plan on stepping outside the bounds of what I've previously written about. Looking back, most
+of my posts are about programming, and read like how-to manuals for different tech.
+This is great on occasion, the problem is I don't particularly enjoy writing how-to manuals, and
+thus, I end up falling off the wagon. With that in mind, I hope to have more fun with this.
+
+So what might I end up writing about here? Well, as I'm still employed full-time as a software
+engineer, I imagine programming will still come up regularly. However, there are many other dimensions
+of life as a millennial in Denver worth exploring, and I'd like to do so.
+
+Alright, now you know why I've returned! So, where am I in life at the moment?
+
+As of six months ago, I became a new homeowner! This has been a whole new kind of adventure for me,
+as I navigate the realities of home mortgages, neighborhood associations, and keeping the lawn looking
+tidy. While there have been a few headaches along the way, Denver is a great place to own a home right
+now, as our market is booming, so I've enjoyed the process.
+
+Also, I started a new job, at a company here in Denver, though since I've been away from this so long,
+the job hardly qualifies as new. I'm working for Closely, spending most of my time on our Web Application,
+and our iOS application. Essentially, we put social media management within reach of small business owners,
+who otherwise might not be able to manage it. We aggregate interactions from the various social media channels onto
+a single interface, making it easy for the small business owner to get a bird's eye view of what people
+are saying about them online. We call it <a href='https://my.perchapp.com' target='_blank'>Perch</a>.
+
+I would be remiss if I didn't also mention the lady who's become such a big part of my life over the last
+year as well. Mary is as smart as she is beautiful, and it's a pleasure having her around. Girlfriends
+are awesome. We recently took a trip together up the historic California 1, an adventure I'd had on my
+bucket list for quite some time. We started in San Diego, and gradually made our way to Portland over the
+course of 10 days. If I were to do it again, I'd make it 20 days.
+
+Yes, many other things happened in the year since I've last posted here, but these highlights
+will do for now. I'm cooking up a list of topics to write about, hopefully 2016 will see a much more active
+blog!
